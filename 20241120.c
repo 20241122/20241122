@@ -30,6 +30,7 @@ int main(void) {
     char in[100], out[100], backwardin[100], backwardout[100];
     int i;
     printf("알파벳으로 된 문자열을 입력하시오.: ");
+    printf("테스트입니다.");
     scanf("%s", in);
     caseconv(in, out);
     printf("대소문자 변환: %s\n", out);
